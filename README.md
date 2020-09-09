@@ -3,7 +3,7 @@
 This repo contains a docker container in which cuda, tensorboard, and pytorch are installed. You can run your machine learning applications in this container.
 
 ## Instructions
-Clone this repo. The IP address in the Dockerfile might need to be changed depending on the computer.
+Clone this repo in your directory. The docker container will mount also the parent directory to allow for importing this repo. The IP address in the Dockerfile might need to be changed depending on the computer.
 ```
 chmod +x start.sh
 ./start.sh

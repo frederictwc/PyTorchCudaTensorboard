@@ -7,7 +7,7 @@ COPY . .
 RUN apt-get -y update 
 RUN apt-get -y install python3-pip 
 RUN apt-get -y install nano
-RUN pip3 install -r pytorch_cuda_tensorboard/requirements.txt
+RUN pip3 install -r PyTorchCudaTensorboard/requirements.txt
 
 EXPOSE 6006
 
